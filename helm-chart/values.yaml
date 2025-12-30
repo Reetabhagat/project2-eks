@@ -1,0 +1,12 @@
+app:
+  name: project2-app
+
+replicaCount: 2
+
+image:
+  repository: rbhagat2/project2-eks
+  tag: "1.0"
+
+service:
+  type: LoadBalancer
+  port: 3000
