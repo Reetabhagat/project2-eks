@@ -1,0 +1,4 @@
+*.pem
+kubeconfig
+*.env
+node_modules
